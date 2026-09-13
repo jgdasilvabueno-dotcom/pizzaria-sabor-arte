@@ -1,0 +1,246 @@
+/* RESET */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* CORPO */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff8f0;
+    color: #333;
+}
+
+/* CABEÇALHO */
+
+header {
+    background-color: #c0392b;
+    color: white;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 28px;
+}
+
+/* MENU */
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 25px;
+    font-size: 17px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* PARTE PRINCIPAL */
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+
+    background-image: url("pizza_4k_5k_hd.jpg");
+    background-size: cover;
+    background-position: center;
+
+    color: white;
+}
+
+.hero h2 {
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+
+    text-shadow: 2px 2px 4px black;
+
+    margin-bottom: 25px;
+}
+
+.hero p {
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+
+    text-shadow: 1px 1px 3px black;
+
+    margin-bottom: 20px;
+
+    line-height: 1.5;
+}
+
+/* BOTÃO WHATSAPP */
+
+.botao-whatsapp {
+    background-color: #25D366;
+    color: white;
+
+    text-decoration: none;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 12px;
+
+    padding: 16px 28px;
+    margin-top: 15px;
+
+    border-radius: 8px;
+
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.botao-whatsapp:hover {
+    background-color: #1ebe5d;
+}
+
+/* LOGO DO WHATSAPP */
+
+.botao-whatsapp img {
+    width: 40px;
+    height: 40px;
+
+    display: block;
+
+    object-fit: contain;
+}
+
+/* SOBRE A PIZZARIA */
+
+.apresentacao {
+    text-align: center;
+
+    padding: 80px 30px;
+
+    background-image: url("pizza.png.jpg");
+    background-size: cover;
+    background-position: center;
+
+    color: white;
+}
+
+.apresentacao h2 {
+    font-size: 38px;
+
+    color: white;
+
+    margin-bottom: 30px;
+
+    text-shadow: 1px 1px 3px black;
+}
+
+.apresentacao p {
+    max-width: 900px;
+
+    margin: 0 auto 25px;
+
+    font-size: 20px;
+
+    font-weight: bold;
+
+    line-height: 1.7;
+
+    color: white;
+
+    text-shadow: 1px 1px 3px black;
+}
+
+/* FRASE FINAL */
+
+.apresentacao .destaque {
+    color: #c0392b;
+
+    font-size: 25px;
+
+    font-weight: bold;
+
+    margin-top: 35px;
+}
+
+/* RODAPÉ */
+
+footer {
+    background-color: #333;
+
+    color: white;
+
+    text-align: center;
+
+    padding: 30px 20px;
+}
+
+footer p {
+    margin-bottom: 10px;
+
+    font-size: 16px;
+}
+
+/* CELULAR */
+
+@media (max-width: 700px) {
+
+    header {
+        padding: 20px;
+
+        flex-direction: column;
+
+        gap: 15px;
+
+        text-align: center;
+    }
+
+    header h1 {
+        font-size: 24px;
+    }
+
+    nav a {
+        margin: 0 8px;
+
+        font-size: 15px;
+    }
+
+    .hero {
+        padding: 70px 20px;
+    }
+
+    .hero h2 {
+        font-size: 34px;
+    }
+
+    .hero p {
+        font-size: 18px;
+    }
+
+    .botao-whatsapp {
+        font-size: 18px;
+
+        padding: 14px 20px;
+    }
+
+    .botao-whatsapp img {
+        width: 35px;
+        height: 35px;
+    }
+
+    .apresentacao {
+        padding: 60px 20px;
+    }
+
+    .apresentacao h2 {
+        font-size: 28px;
+    }
+
+    .apresentacao p {
+        font-size: 17px;
+    }
+}
